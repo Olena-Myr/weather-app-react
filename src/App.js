@@ -2,15 +2,11 @@ import React from "react";
 import "./App.css";
 import Weather from "./Weather";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>Hello from App</h1>
-        <Weather city="Sydney" />
-      </header>
+      <h1>Weather App</h1>
+      <Weather />
     </div>
   );
 }
-
-export default App;
