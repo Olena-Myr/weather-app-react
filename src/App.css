@@ -69,18 +69,3 @@ ul {
   position: relative;
   top: -24px;
 }
-
-.units .active {
-  color: rgb(33, 33, 33);
-  cursor: default;
-  text-decoration: none;
-}
-.units .active:hover {
-  text-decoration: none;
-}
-.units .passive {
-  text-decoration: none;
-}
-.units .passive:hover {
-  text-decoration: underline;
-}
