@@ -69,15 +69,51 @@ export default function Weather(props) {
     return (
       <div>
         {form}
-        <ul>
-          <li>Temperature: {Math.round(weather.temperature)}°C</li>
-          <li>Description: {weather.description}</li>
-          <li>Humidity: {weather.humidity}%</li>
-          <li>Wind: {Math.round(weather.wind)} km/h</li>
-          <li>
-            <img src={weather.icon} alt={weather.description} />
-          </li>
-        </ul>
+        <div className="row">
+          <div className="col-4">
+            <ul>
+              <li>
+                <h2>{city}</h2>
+              </li>
+              <li>
+                <span>Monday </span>
+                <span>12:00</span>
+              </li>
+              <li>April, 07 2023</li>
+            </ul>
+          </div>
+          <div className="col-4">
+            <ul>
+              <li>
+                <img
+                  src={weather.icon}
+                  title={weather.description}
+                  alt={weather.description}
+                />
+              </li>
+              <li>
+                <span>Humidity: {weather.humidity}%</span>
+              </li>
+              <li>
+                <span>Wind: {Math.round(weather.wind)} km/h</span>
+              </li>
+            </ul>
+          </div>
+          <div className="col-4">
+            <ul className="temperature-style">
+              <span id="temperature">{Math.round(weather.temperature)} </span>
+              <span className="units">
+                <a href="#" id="celsius" class="active">
+                  °C{" "}
+                </a>
+                |
+                <a href="#" id="fahrenheit" class="passive">
+                  °F{" "}
+                </a>
+              </span>
+            </ul>
+          </div>
+        </div>
       </div>
     );
   } else {

@@ -1,39 +1,86 @@
 .App {
-  text-align: left;
-  margin-left: 50px;
+  font-family: "Edu NSW ACT Foundation", cursive;
+  text-align: center;
+  color: #3c3c3c;
+  border: 1px solid #707070;
+  padding: 20px 20px 0 20px;
+  margin: 20px auto;
+  border-radius: 15px;
+  max-width: 900px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.footer {
+  margin-top: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.footer-link {
+  text-decoration: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h1,
+h2 {
+  font-weight: 900;
 }
 
-.App-link {
-  color: #61dafb;
+h2 {
+  margin: 10px 0 12px 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.temperature-style {
+  margin: 20px 0 0;
+}
+
+li {
+  font-size: 20px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+.weather-forecast {
+  font-size: 20px;
+  text-align: center;
+  list-style: none;
+  margin-top: 20px;
+}
+
+.weather-forecast-date {
+  opacity: 0.6;
+}
+
+.weather-forecast-temperature-min {
+  opacity: 0.6;
+}
+
+.input-group {
+  max-width: 600px;
+  margin: 0px auto 20px;
+  top: 15px;
+}
+
+#temperature {
+  font-size: 60px;
+}
+.units {
+  position: relative;
+  top: -24px;
+}
+
+.units .active {
+  color: rgb(33, 33, 33);
+  cursor: default;
+  text-decoration: none;
+}
+.units .active:hover {
+  text-decoration: none;
+}
+.units .passive {
+  text-decoration: none;
+}
+.units .passive:hover {
+  text-decoration: underline;
 }
