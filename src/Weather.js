@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 import { RotatingLines } from "react-loader-spinner";
+import Forecast from "./Forecast";
 
 export default function Weather(props) {
   let [city, setCity] = useState("");
@@ -101,18 +102,15 @@ export default function Weather(props) {
           </div>
           <div className="col-4">
             <ul className="temperature-style">
-              <span id="temperature">{Math.round(weather.temperature)} </span>
+              <span className="temperature">
+                {Math.round(weather.temperature)}{" "}
+              </span>
               <span className="units">
-                <a href="#" id="celsius" class="active">
-                  °C{" "}
-                </a>
-                |
-                <a href="#" id="fahrenheit" class="passive">
-                  °F{" "}
-                </a>
+                <a href="#">°C </a>|<a href="#">°F </a>
               </span>
             </ul>
           </div>
+          <Forecast />
         </div>
       </div>
     );

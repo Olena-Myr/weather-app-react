@@ -62,7 +62,7 @@ ul {
   top: 15px;
 }
 
-#temperature {
+.temperature {
   font-size: 60px;
 }
 .units {
