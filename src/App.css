@@ -56,12 +56,6 @@ ul {
   opacity: 0.6;
 }
 
-.input-group {
-  max-width: 600px;
-  margin: 0px auto 20px;
-  top: 15px;
-}
-
 .temperature {
   font-size: 60px;
 }
