@@ -9,7 +9,10 @@ export default function Forecast() {
           <ul>
             <li className="weather-forecast-date">Wednesday</li>
             <li>
-              <img src="https://openweathermap.org/img/wn/10d@2x.png"></img>
+              <img
+                src="https://openweathermap.org/img/wn/10d@2x.png"
+                alt="icon"
+              ></img>
             </li>
             <li>
               <span>16° </span>
@@ -21,7 +24,10 @@ export default function Forecast() {
           <ul>
             <li className="weather-forecast-date">Thursday</li>
             <li>
-              <img src="https://openweathermap.org/img/wn/10d@2x.png"></img>
+              <img
+                src="https://openweathermap.org/img/wn/10d@2x.png"
+                alt="icon"
+              ></img>
             </li>
             <li>
               <span>17° </span>
@@ -33,7 +39,10 @@ export default function Forecast() {
           <ul>
             <li className="weather-forecast-date">Friday</li>
             <li>
-              <img src="https://openweathermap.org/img/wn/10d@2x.png"></img>
+              <img
+                src="https://openweathermap.org/img/wn/10d@2x.png"
+                alt="icon"
+              ></img>
             </li>
             <li>
               <span>18° </span>
@@ -45,7 +54,10 @@ export default function Forecast() {
           <ul>
             <li className="weather-forecast-date">Saturday</li>
             <li>
-              <img src="https://openweathermap.org/img/wn/10d@2x.png"></img>
+              <img
+                src="https://openweathermap.org/img/wn/10d@2x.png"
+                alt="icon"
+              ></img>
             </li>
             <li>
               <span>15° </span>
@@ -57,7 +69,10 @@ export default function Forecast() {
           <ul>
             <li className="weather-forecast-date">Sunday</li>
             <li>
-              <img src="https://openweathermap.org/img/wn/10d@2x.png"></img>
+              <img
+                src="https://openweathermap.org/img/wn/10d@2x.png"
+                alt="rain"
+              ></img>
             </li>
             <li>
               <span>17° </span>

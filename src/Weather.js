@@ -86,11 +86,7 @@ export default function Weather(props) {
           <div className="col-4">
             <ul>
               <li>
-                <img
-                  src={weather.icon}
-                  title={weather.description}
-                  alt={weather.description}
-                />
+                <img src={weather.icon} alt="icon" />
               </li>
               <li>
                 <span>Humidity: {weather.humidity}%</span>
